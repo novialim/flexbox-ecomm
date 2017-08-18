@@ -1,0 +1,9 @@
+.show {
+    visibility: visible;
+    display: inline-block;
+}
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Novia Lim">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Novia Lim - Modern Full Stack Developer" />
+    <meta property="og:image" content="http://i.imgur.com/ARQqXNN.jpg" />
+    <meta property="og:description" content="Passionate in programming and data analytics, Novia has more than 10 years of IT + data analytics working experience with corporations such as Lexmark, Mercer & Oracle. Specialties: JavaScript, HTML5, CSS3, Git, Responsive design, API/JSON, RESTful API, Node.js, Express, React.js and Foundation Course in Analytics." />
+    <meta property="og:url" content="http://novialim.com" />
+    <title>Ecommerce Flexbox Demo</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="assets/favicons/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Custom stylesheet link -->
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/search.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/dropdown.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/condition.css">
+    <!-- Google font link -->
+    <link href="https://fonts.googleapis.com/css?family=Patua+One|Comfortaa|VT323" rel="stylesheet">
+    <!-- JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="top-banner"><span class="top-banner-text">FREE SHIPPING & EASY RETURNS. Inspired by: <a id="goodamericanlink" href="https://www.goodamerican.com" target="_blank">Good American, LLC</a>. All Rights reserved. </span>
+                <a href="#" data-target="modal-close" class="banner-close">
+                    <svg viewPort="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="1" y1="13" x2="13" y2="1" stroke="white" stroke-width="2" />
+                        <line x1="1" y1="1" x2="13" y2="13" stroke="white" stroke-width="2" />
+                    </svg>
+                </a>
+            </div>
+            <div class="top-header">
+                <!-- Customized mega dropdown -->
+                <div class="select-country" role="listbox">
+                    <span class="value">United States</span>
+                    <ul class="optList hidden" role="presentation">
+                        <!-- <ul class="optList hidden"> -->
+                        <li class="option"></li>
+                        <li class="option"></li>
+                        <li class="option"></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img id="imglogo" src="assets/images/logo@3x.png">
+                </div>
+                <div class="header-utilities">
+                    <ul>
+                        <li>
+                            <form>
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </form>
+                        </li>
+                        <li><a>Subscribe</a></li>
+                        <li><a>Login/Signup</a></li>
+                        <li><a>Bag (<span id="quantity">0</span>)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="nav-main">
+                <ul>
+                    <li><a href="#">NEW</a></li>
+                    <li><a href="#">JEANS</a></li>
+                    <li><a href="#">ZODIAC</a></li>
+                    <li><a href="#">BODYSUITS</a></li>
+                    <li><a href="#">SHORTS</a></li>
+                    <li><a href="#">SKIRTS</a></li>
+                    <li><a href="#">JACKETS</a></li>
+                    <li><a href="#">BRAND</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Main home image -->
+            <div class="home-main">
+                <div class="home-main-content">
+                    <div class="home-main-title">
+                        <h2>JUST DROPPED</h2></div>
+                    <div class="home-main-text">DENIM & BODIES IN INCLUSIVE SIZING</div>
+                </div>
+            </div>
+            <div class="divider-text">Denim and bodysuits in inclusive sizing. Made in Los Angeles.</div>
+            <div class="home-center-wrapper">
+                <div class="home-center-1">
+                    <div class="maincenter01"></div>
+                    <div class="home-center-header">GOOD BODY</div>
+                    <div class="home-center-details">
+                        We've added new size-inclusive bodysuits in waist-sculpting compression fabric and statement-making mesh material.
+                    </div>
+                </div>
+                <div class="home-center-2">
+                    <div class="maincenter02"></div>
+                    <div class="home-center-header">NEW IN DENIM</div>
+                    <div class="home-center-details">
+                        The Slim Zip, our smoothing skinny jeans, just dropped in a most-loved blue wash for $129.
+                    </div>
+                </div>
+            </div>
+            <div class="mailing-list-wrapper">
+                <h2>Join the squad. Sign up for the mailing list:</h2>
+                <div class="mailing-form-wrapper">
+                    <input type="email" name="email" class="
+                    mailing-list-email" autocomplete="off">
+                    <button type="submit" class="mailing-list-button"></button>
+                </div>
+            </div>
+            <div class="home-center-section">
+                <div class="home-center-section-img">
+                    <!-- <img src="assets/images/maincenter3.jpg"> -->
+                    <div class="home-center-text">
+                        <div class="home-center-header-md">
+                            <h1>GOOD WAIST</h1></div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="home-center-wrapper">
+                <div class="home-center-1">
+                    <div class="maincenter03"></div>
+                    <div class="home-center-header">THE ZODIAC SWEATER</div>
+                    <div class="home-center-details">
+                        Our limited edition tribute to the cosmos is now back in stock in all 12 star signs.
+                    </div>
+                </div>
+                <div class="home-center-2">
+                    <div class="maincenter04"></div>
+                    <div class="home-center-header">HIGH-WAISTED JEANS</div>
+                    <div class="home-center-details">
+                        Shop our high and ultra-high wasited denim available in sizes 00-24.
+                    </div>
+                </div>
+            </div>
+            <section class="instagram">
+                <div class="insta-posting-wrapper">
+                    <div class="insta-posting"></div>
+                </div>
+            </section>
+            <div class="founder-divider">
+                <div class="founder-text">Co-founded by Khloé Kardashian & Emma Grede.</div>
+                <p><a href="#" class="newsletter">JOIN #GOODSQUAD</a></p>
+            </div>
+            <section class="instagram">
+                <div class="insta-posting-wrapper">
+                    <div class="insta-posting"></div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <ul class="footer-left">
+                <li>SIZE GUIDE</li>
+                <li>GIFT CARDS</li>
+                <li>HELP</li>
+            </ul>
+            <ul class="footer-right">
+                <li>PRIVACY POLICY</li>
+                <li>TERMS OF USE</li>
+                <li><span class="social-link">SOCIAL</span></li>
+                <li class="social-icons hidden">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <!-- End of container -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- Custom javascript link -->
+    <script type="text/javascript" src="assets/js/mousehover.js"></script>
+    <script src="https://use.fontawesome.com/cab75369ad.js"></script>
+
+</body>
+
+</html>
