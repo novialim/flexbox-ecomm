@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/search.css">
     <link rel="stylesheet" type="text/css" href="assets/css/dropdown.css">
     <link rel="stylesheet" type="text/css" href="assets/css/condition.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/mediaquery.css">
     <!-- Google font link -->
     <link href="https://fonts.googleapis.com/css?family=Patua+One|Comfortaa|VT323" rel="stylesheet">
     <!-- JQuery CDN -->
@@ -32,7 +33,8 @@
 <body>
     <div class="container">
         <header>
-            <div class="top-banner"><span class="top-banner-text">FREE SHIPPING & EASY RETURNS. Inspired by: <a id="goodamericanlink" href="https://www.goodamerican.com" target="_blank">Good American, LLC</a>. All Rights reserved. </span>
+            <div class="top-banner"><span class="top-banner-text desktop-menu">FREE SHIPPING & EASY RETURNS. Inspired by: <a id="goodamericanlink" href="https://www.goodamerican.com" target="_blank">Good American, LLC</a>. All Rights reserved. </span>
+                <span class="top-banner-text mobile-menu">FREE SHIPPING & EASY RETURNS.</span>
                 <a href="#" data-target="modal-close" class="banner-close">
                     <svg viewPort="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg">
                         <line x1="1" y1="13" x2="13" y2="1" stroke="white" stroke-width="2" />
@@ -42,7 +44,7 @@
             </div>
             <div class="top-header">
                 <!-- Customized mega dropdown -->
-                <div class="select-country" role="listbox">
+                <div class="select-country desktop-menu" role="listbox">
                     <span class="value">United States</span>
                     <ul class="optList hidden" role="presentation">
                         <!-- <ul class="optList hidden"> -->
@@ -54,7 +56,7 @@
                 <div class="logo">
                     <img id="imglogo" src="assets/images/logo@3x.png">
                 </div>
-                <div class="header-utilities">
+                <div class="header-utilities desktop-menu">
                     <ul>
                         <li>
                             <form>
@@ -67,7 +69,7 @@
                     </ul>
                 </div>
             </div>
-            <nav class="nav-main">
+            <nav class="nav-main desktop-menu">
                 <ul>
                     <li><a href="#">NEW</a></li>
                     <li><a href="#">JEANS</a></li>
@@ -81,14 +83,16 @@
             </nav>
         </header>
         <main>
-            <!-- Main home image -->
-            <div class="home-main">
-                <div class="home-main-content">
-                    <div class="home-main-title">
-                        <h2>JUST DROPPED</h2></div>
-                    <div class="home-main-text">DENIM & BODIES IN INCLUSIVE SIZING</div>
+
+                <!-- Main home image -->
+                <div class="home-main">
+                    <div class="home-main-content">
+                        <div class="home-main-title">
+                            <h2>JUST DROPPED</h2></div>
+                        <div class="home-main-text desktop-menu">DENIM & BODIES IN INCLUSIVE SIZING</div>
+                    </div>
                 </div>
-            </div>
+
             <div class="divider-text">Denim and bodysuits in inclusive sizing. Made in Los Angeles.</div>
             <div class="home-center-wrapper">
                 <div class="home-center-1">
@@ -106,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mailing-list-wrapper">
+            <div class="mailing-list-wrapper desktop-menu">
                 <h2>Join the squad. Sign up for the mailing list:</h2>
                 <div class="mailing-form-wrapper">
                     <input type="email" name="email" class="
@@ -136,7 +140,7 @@
                     <div class="maincenter04"></div>
                     <div class="home-center-header">HIGH-WAISTED JEANS</div>
                     <div class="home-center-details">
-                        Shop our high and ultra-high wasited denim available in sizes 00-24.
+                        Shop our high and ultra-high waisted denim available in sizes 00-24.
                     </div>
                 </div>
             </div>

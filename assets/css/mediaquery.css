@@ -1,0 +1,97 @@
+        @viewport {
+        width: device-width;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .mobile-menu {
+            display: none;
+        }
+    }
+    /*mobile devices*/
+
+    @media only screen and (max-width: 767px) {
+        .desktop-menu {
+            display: none;
+        }
+
+        .home-main {
+            -webkit-flex: 1;
+            flex: 1;
+            background-size: cover;
+            min-width: 320px;
+            min-height: 300px;
+            height: 0;
+            align-self: flex-start;
+            background-image: url(../images/maincenter0.jpg);
+            background-repeat: no-repeat;
+            position: relative;
+            background-position: top;
+        }
+
+        .home-center-wrapper {
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .founder-text {
+            flex: 1;
+            font-size: 2.5em;
+            margin: 1em;
+            line-height: 1.6em;
+        }
+
+        .home-center-1, .home-center-2 {
+        	width:100%;
+        }
+
+        .maincenter01,
+        .maincenter02,
+        .maincenter03,
+        .maincenter04 {
+            -webkit-flex: 1;
+            flex: 1;
+            flex: 1 1 auto;
+            background-size: cover;
+            min-width: 320px;
+            min-height: 300px;
+            height: 0;
+            width: 100%;
+            align-self: flex-start;
+            background-position: top;
+        }
+
+        .home-center-details {
+            padding: 0 0.5em;
+        }
+
+        .home-center-section {
+            display: -webkit-flex;
+            display: flex;
+            align-items: center;
+            flex-flow: column;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .home-center-section-img {
+            -webkit-flex: 1;
+            flex: 1;
+            min-width: 320px;
+            min-height: 300px;
+            height: 0;
+            width: 100%;
+            align-self: flex-start;
+            background-size: cover;
+            background-image: url(../images/maincenter3.jpg);
+            background-repeat: no-repeat;
+            position: relative;
+            background-position: top;
+        }
+
+        .home-center-header-md{
+        	font-size: 1.7em;
+        }
